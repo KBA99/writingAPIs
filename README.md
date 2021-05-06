@@ -35,3 +35,9 @@ Commit 2:
 Commit 3:
 ---
 - Extracted Logic out of controllers to users
+
+Commit 4:
+---
+- Installed mongoose package
+- Imported mongoose into index.js
+- Created a schema for Users in models/users

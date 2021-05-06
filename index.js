@@ -1,5 +1,14 @@
 import express from "express";
+import mongoose from "mongoose"
 
+mongoose.connect("mongodb://localhost/node-rest", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
+
+const db = mongoose.connection
+db.on('error', (error) => console.log(error))
+db.on('open', () => console.log('Connected to Database'))
 const app = express();
 
 import userRoutes from './routes/user.js'
