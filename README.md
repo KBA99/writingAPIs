@@ -9,6 +9,10 @@ Source
 Context
 ---
 Creating a restful API with postman and express
+
+<h3>Use NPM install to install the relevant packages</h3>
+
+<em>Packages used</em>
 ```
 express --save
 nodemon -D
