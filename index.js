@@ -1,10 +1,10 @@
 import express from "express";
+
 const app = express();
 
 import userRoutes from './routes/user.js'
 
 const PORT = 5000;
-
 
 // Parse request body as JSON
 app.use(express.urlencoded({ extended: true }));
