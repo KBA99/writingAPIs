@@ -26,3 +26,7 @@ Commit 1:
 Commit 2:
 ---
 - Created GET, POST, DELETE and PATCH requests
+
+Commit 3:
+---
+- Extracted Logic out of controllers to users
